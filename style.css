@@ -1,0 +1,19 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+div:hover{
+    font-size: 25px;
+    font-family: serif;
+    background-color: darkolivegreen;
+    color: gold;
+    /* transition-duration: 3s;
+    transition-timing-function: steps(10);
+    transition-delay: 1s; */
+    transition: 1s steps(15) 2s;
+
+    
+}
